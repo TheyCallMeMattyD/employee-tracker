@@ -19,5 +19,10 @@
     "bugs": {
         "url": "https://github.com/TheyCallMeMattyD/employee-tracker/issues"
     },
-    "homepage": "https://github.com/TheyCallMeMattyD/employee-tracker#readme"
+    "homepage": "https://github.com/TheyCallMeMattyD/employee-tracker#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "inquirer": "^7.3.3",
+        "mysql": "^2.18.1"
+    }
 }
