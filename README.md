@@ -1,9 +1,9 @@
+# Employee Tracker / Content Management System  
+
 [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/employee-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/employee-tracker/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/employee-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/employee-tracker/stargazers) &nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/employee-tracker?style=for-the-badge)  
 
-
-# Employee Tracker
 
 ## Description
 >  
