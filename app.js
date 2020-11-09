@@ -890,3 +890,4 @@ function viewDeptBudget() {
             // back to main menu
             mainMenu();
         });
+}
