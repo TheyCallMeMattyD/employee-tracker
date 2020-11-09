@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "[![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/employee-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/employee-tracker/issues) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/employee-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/employee-tracker/stargazers) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/employee-tracker?style=for-the-badge)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheyCallMeMattyD/employee-tracker.git"
+  },
+  "author": "Matthew Daniels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheyCallMeMattyD/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/TheyCallMeMattyD/employee-tracker#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
