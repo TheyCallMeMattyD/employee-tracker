@@ -44,11 +44,15 @@
 ## Tests
 >### Here's a GIF of the 'View all Records' functionality:  
 >  
->
+>![View All](https://user-images.githubusercontent.com/66084799/98731930-74537a00-236c-11eb-9685-029054ffd3f3.gif)  
 >  
 >### Here's a GIF of a record being added:  
 >  
 >![Add Record](https://user-images.githubusercontent.com/66084799/98731616-fa22f580-236b-11eb-9bc8-46ab7498a3d3.gif)  
+>  
+>### Here's a GIF of a record being deleted:  
+>  
+>  
   
 ## Questions
 >Please direct all questions to:  
