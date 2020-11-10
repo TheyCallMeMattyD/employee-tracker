@@ -48,7 +48,8 @@ function mainMenu() {
                 "Delete Employee",
                 "Delete Role",
                 "Delete Department",
-                "View Department Budgets"
+                "View Department Budgets",
+                "Exit"
             ]
         })
         .then((answer) => {
@@ -98,6 +99,8 @@ function mainMenu() {
                 case "Delete Department":
                     deleteDept();
                     break;
+                case "Exit":
+                    connection.end();
             }
         });
 }
