@@ -102,7 +102,6 @@ function mainMenu() {
                 case "EXIT":
                     console.log("Goodbye!");
                     connection.end();
-                    break;
             }
         });
 }
