@@ -6,17 +6,18 @@
 
 
 ## Description
->  
+>  A Content Management System (CMS) that enables a company to view and update/delete employee records.
   
 ## Table of Contents
 >1. [Title](#Title)
 >2. [Description](#Description)
->3. [Installation](#Installation)
->4. [Usage](#Usage)
->5. [License](#License)
->6. [Contributing](#Contributing)
->7. [Tests](#Tests)
->8. [Questions?](#Questions?)
+>3. [Technologies](#Technologies)
+>4. [Installation](#Installation)
+>5. [Usage](#Usage)
+>6. [License](#License)
+>7. [Contributing](#Contributing)
+>8. [Tests](#Tests)
+>9. [Questions?](#Questions?)
   
 ## Installation
 >1.   
@@ -24,6 +25,12 @@
 ## Usage
 >  
 
+## Technologies
+>This application was created with:  
+>  
+>   Node.js   
+>   Inquirer.js  
+>   mySQL  
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
