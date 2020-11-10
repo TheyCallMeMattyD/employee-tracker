@@ -45,58 +45,58 @@ function mainMenu() {
                 "Add Department",
                 "Update employee Role",
                 "Update employee Manager", ,
-                "Delete employee",
-                "Delete role",
-                "Delete department",
-                "View department budgets",
-                "EXIT"
+                "Delete Employee",
+                "Delete Role",
+                "Delete Department",
+                "View Department Budgets",
+                "EXIT",
             ]
         })
         .then((answer) => {
 
             // Switch case depending on user option
             switch (answer.action) {
-                case "View all employees":
+                case "View all Employees":
                     viewAllEmp();
                     break;
 
-                case "View all employees by department":
+                case "View all employees by Department":
                     viewAllEmpByDept();
                     break;
 
-                case "View all employees by role":
+                case "View all employees by Role":
                     viewAllEmpByRole();
                     break;
 
-                case "Add employee":
+                case "Add Employee":
                     addEmp();
                     break;
 
-                case "Add department":
+                case "Add Department":
                     addDept();
                     break;
-                case "Add role":
+                case "Add Role":
                     addRole();
                     break;
-                case "Update employee role":
+                case "Update employee Role":
                     updateEmpRole();
                     break;
-                case "Update employee manager":
+                case "Update employee Manager":
                     updateEmpMngr();
                     break;
-                case "View all employees by manager":
+                case "View all employees by Manager":
                     viewAllEmpByMngr();
                     break;
-                case "Delete employee":
+                case "Delete Employee":
                     deleteEmp();
                     break;
-                case "View department budgets":
+                case "View Department Budgets":
                     viewDeptBudget();
                     break;
-                case "Delete role":
+                case "Delete Role":
                     deleteRole();
                     break;
-                case "Delete department":
+                case "Delete Department":
                     deleteDept();
                     break;
                 case "EXIT":
