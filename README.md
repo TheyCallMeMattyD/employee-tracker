@@ -21,6 +21,7 @@
   
 ## Installation
 >Please install required dependencies using the following code: `npm install mysql`, `npm install inquirer`, and `npm install console.table`.  
+>  
 >You must have an instance of mySQL running in either the terminal or mySQL workbench environments.
   
 ## Usage
