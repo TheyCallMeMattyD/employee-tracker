@@ -11,7 +11,7 @@
 ## Table of Contents
 >1. [Title](#Title)
 >2. [Description](#Description)
->3. [Technologies] (#Technologies)
+>3. [Technologies](#Technologies)
 >4. [Installation](#Installation)
 >5. [Usage](#Usage)
 >6. [License](#License)
