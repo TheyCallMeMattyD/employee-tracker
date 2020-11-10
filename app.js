@@ -101,6 +101,10 @@ function mainMenu() {
                     break;
                 case "Exit":
                     connection.end();
+                    break;
+                default:
+                    connection.end();
+                    break;
             }
         });
 }
