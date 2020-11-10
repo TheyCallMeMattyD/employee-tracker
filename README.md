@@ -6,7 +6,7 @@
 
 
 ## Description
->  
+>  A Content Management System (CMS) that enables a company to view and update/delete employee records.
   
 ## Table of Contents
 >1. [Title](#Title)
