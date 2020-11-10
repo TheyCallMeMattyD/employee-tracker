@@ -52,9 +52,9 @@
 >  
 >### Here's a GIF of a record being deleted:  
 >  
+>![Delete Record](https://user-images.githubusercontent.com/66084799/98732130-bd0b3300-236c-11eb-9df5-417bcdcf62c7.gif)  
 >  
-  
-## Questions
+## Questions  
 >Please direct all questions to:  
 TheMattyD@outlook.com<br/>  
 Check out my GitHub Profile @ https://github.com/TheyCallMeMattyD  
