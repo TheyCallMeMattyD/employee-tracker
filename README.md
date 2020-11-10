@@ -44,6 +44,7 @@
 ## Tests
 >### Here's a GIF of the tracker being executed:  
 >  
+>![Add Record](https://user-images.githubusercontent.com/66084799/98731616-fa22f580-236b-11eb-9bc8-46ab7498a3d3.gif)  
   
 ## Questions
 >Please direct all questions to:  
