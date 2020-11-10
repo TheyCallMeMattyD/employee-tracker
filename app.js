@@ -19,7 +19,7 @@ const connection = mysql.createConnection(connectionProperties);
 connection.connect((err) => {
     if (err) throw err;
 
-    console.log("\n WELCOME TO EMPLOYEE TRACKER \n");
+    console.log("\n Employee Tracker! \n");
     mainMenu();
 });
 
@@ -101,7 +101,6 @@ function mainMenu() {
                     break;
                 default:
                     connection.end();
-                    break;
             }
         });
 }
@@ -115,7 +114,6 @@ function viewAllEmp() {
         if (err) return err;
         console.log("\n");
 
-        // Display query results using console.table
         console.table(res);
 
         mainMenu();
@@ -133,7 +131,6 @@ function viewAllEmpByDept() {
         return conn.query('SELECT name FROM department');
     }).then(function(value) {
 
-        // Place all names within deptArr
         deptQuery = value;
         for (i = 0; i < value.length; i++) {
             deptArr.push(value[i].name);
@@ -171,11 +168,9 @@ function viewAllEmpByRole() {
     promisemysql.createConnection(connectionProperties)
         .then((conn) => {
 
-            // Query all roles
             return conn.query('SELECT title FROM role');
         }).then(function(roles) {
 
-            // Place all roles within the roleArry
             for (i = 0; i < roles.length; i++) {
                 roleArr.push(roles[i].title);
             }
@@ -204,14 +199,14 @@ function viewAllEmpByRole() {
 // Add employee
 function addEmp() {
 
-    // Create two global array to hold 
+    // Create two global arrays
     let roleArr = [];
     let managerArr = [];
 
-    // Create connection using promise-sql
+    // Create connection with promise-sql
     promisemysql.createConnection(connectionProperties).then((conn) => {
 
-        // Query  all roles and all manager. Pass as a promise
+        // Query  all roles and all manager
         return Promise.all([
             conn.query('SELECT id, title FROM role ORDER BY title ASC'),
             conn.query("SELECT employee.id, concat(employee.first_name, ' ' ,  employee.last_name) AS Employee FROM employee ORDER BY Employee ASC")
@@ -613,7 +608,6 @@ function deleteEmp() {
     // Create global employee array
     let employeeArr = [];
 
-    // Create connection using promise-sql
     promisemysql.createConnection(connectionProperties).then((conn) => {
 
         // Query all employees
@@ -678,7 +672,6 @@ function deleteRole() {
     // Create role array
     let roleArr = [];
 
-    // Create connection using promise-sql
     promisemysql.createConnection(connectionProperties).then((conn) => {
 
         // query all roles
@@ -712,10 +705,10 @@ function deleteRole() {
                 message: "Which role would you like to delete?",
                 choices: roleArr
             }, {
-                // confirm to delete role by typing role exactly
+                // confirm delete
                 name: "confirmDelete",
                 type: "Input",
-                message: "Type the role title EXACTLY to confirm deletion of the role"
+                message: "Type the EXACT role title to confirm deletion of the role"
 
             }]).then((answer) => {
 
@@ -796,7 +789,7 @@ function deleteDept() {
                 choices: deptArr
             }, {
 
-                // confirm with user to delete
+                // confirm delete
                 name: "confirmDelete",
                 type: "Input",
                 message: "Type the department name EXACTLY to confirm deletion of the department: "
