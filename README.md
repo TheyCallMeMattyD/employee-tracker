@@ -20,10 +20,11 @@
 >9. [Questions?](#Questions?)
   
 ## Installation
->1.   
+>Please install required dependencies using the following code: `npm install mysql`, `npm install inquirer`, and `npm install console.table`.  
+>You must have an instance of mySQL running in either the terminal or mySQL workbench environments.
   
 ## Usage
->  
+>Once you have installed the required dependencies, run the app using the following code in your terminal: `node app.js`.  
 
 ## Technologies
 >This application was created with:  
