@@ -93,6 +93,7 @@ function mainMenu() {
                     deleteDept();
                     break;
                 case "Exit":
+                    console.log("GoodBye!!");
                     connection.end();
                     break;
                 default:
