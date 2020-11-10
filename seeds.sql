@@ -3,10 +3,10 @@ USE employees_db;
 ----- Department Seeds -----
 
 INSERT INTO department (id, name)
-VALUES (1, "Retail");
+VALUES (1, "Sales");
 
 INSERT INTO department (id, name)
-VALUES (2, "Brand Experience");
+VALUES (2, "Service");
 
 INSERT INTO department (id, name)
 VALUES (3, "Human Resouces");
@@ -17,60 +17,60 @@ VALUES (4, "IT");
 ----- Role Seeds -----
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (1, "Stylist", 42000, 1);
+VALUES (1, "Salesman", 50000, 1);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (2, "Assistant Store Manager", 60000, 1);
+VALUES (2, "Mechanic", 45000, 1);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (3, "Store Manager", 75000, 1);
+VALUES (3, "Sales Manager", 75000, 1);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (4, "Brand Manager", 65000, 2);
+VALUES (4, "Shop Manager", 75000, 2);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (5, "Business Partner", 70000, 3);
+VALUES (5, "Owner", 100000, 3);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (6, "HR Director", 100000, 3);
+VALUES (6, "Personnel Mangager", 750000, 3);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (7, "System Adminstrator", 80000, 4);
+VALUES (7, "Website Designer", 80000, 4);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (8, "IT Coordinator", 52000, 4);
+VALUES (8, "Database Manager", 75000, 4);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (9, "IT Manager", 105000, 4);
+VALUES (9, "IT Department Manager", 75000, 4);
 
 ----- Employees Seeds -----
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (4, "Charbelle", "Chaz", 3, null);
+VALUES (4, "Matthew", "Daniels", 3, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (5, "Sofi", "Hernan", 4, null);
+VALUES (5, "Tom", "Minnuto", 4, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (7, "Char", "Dant", 6, null);
+VALUES (7, "David", "Hammell", 6, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (10, "Jonathan", "Uong", 9, null);
+VALUES (10, "Robert", "Hornbaker", 9, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (3, "Melissa", "Arm", 2, 4);
+VALUES (3, "Steve", "Chostner", 2, 4);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (1, "Alla", "Arous", 1, 3);
+VALUES (1, "Tim", "Kernan", 1, 3);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (2, "Rosie", "Cole", 1, 3);
+VALUES (2, "Mike", "Babbit", 1, 3);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (6, "Lianne", "Soon", 5, 7);
+VALUES (6, "Wyatt", "Warnick", 5, 7);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (8, "Zach", "Soar", 7, 10);
+VALUES (8, "Sean", "Hawkins", 7, 10);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (9, "Martin", "Cast", 8, 10);
+VALUES (9, "Craig", "Herndon", 8, 10);
