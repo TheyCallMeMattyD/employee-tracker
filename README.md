@@ -42,7 +42,11 @@
 >Please make sure to update tests as appropriate.
 
 ## Tests
->### Here's a GIF of the tracker being executed:  
+>### Here's a GIF of the 'View all Records' functionality:  
+>  
+>
+>  
+>### Here's a GIF of a record being added:  
 >  
 >![Add Record](https://user-images.githubusercontent.com/66084799/98731616-fa22f580-236b-11eb-9bc8-46ab7498a3d3.gif)  
   
